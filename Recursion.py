@@ -10,7 +10,3 @@ for i in range(n+100):
 
 for i in range(n*1000):
     print(i, end= " ")
-
-
-
-
