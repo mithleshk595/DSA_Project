@@ -18,4 +18,4 @@ def binarySearch(arr, targetVal):
             print(f"Value", targetVal, "found at index", result)
         else:
             print(f"Value", targetVal, "not found in the array")
-            
+        
