@@ -26,3 +26,8 @@ print("isEmpty: ", isEmpty)
 print("Size: ",len(stack))
 
 
+
+
+
+
+
