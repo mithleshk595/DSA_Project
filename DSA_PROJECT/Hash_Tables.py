@@ -6,3 +6,7 @@ def hash_function(value):
     return sum_of_chars % 10
 print("'Bob' has hash code", hash_function('Bob'))
 
+
+
+
+
