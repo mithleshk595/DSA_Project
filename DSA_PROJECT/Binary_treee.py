@@ -33,3 +33,5 @@ nodeF.left = nodeG
 
 # Traverse
 preOrderTraversal(root)
+
+
