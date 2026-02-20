@@ -8,21 +8,21 @@ print("List:", nums)
 print("Max:", max(nums))
 
 
-# nums = [10, 20, 30, 40, 50]
+nums = [10, 20, 30, 40, 50]
 
-# target = int(input("Enter number to search: "))
+target = int(input("Enter number to search: "))
 
-# found = False
+found = False
 
-# for num in nums:
-#     if num == target:
-#         found = True
-#         break
+for num in nums:
+    if num == target:
+        found = True
+        break
 
-# if found:
-#     print("Number found!")
-# else:
-#     print("Number not found!")
+if found:
+    print("Number found!")
+else:
+    print("Number not found!")
 
 # nums = [10, 25, 30, 45, 50]
 
