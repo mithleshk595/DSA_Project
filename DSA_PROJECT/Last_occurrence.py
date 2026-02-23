@@ -17,6 +17,7 @@ def last_occurrence(nums, target):
     return result
 
 
+
 # ---- Main Program ----
 nums = []
 
@@ -34,3 +35,6 @@ if index != -1:
     print("Last Occurrence at index:", index)
 else:
     print("Number Not Found")
+
+    
+
