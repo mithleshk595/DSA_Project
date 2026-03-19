@@ -4,3 +4,7 @@ print(list1)
 print(type(list1))
 print(len(list1))
 print(list1[0]) # Accesing the first elelment
+
+
+
+
