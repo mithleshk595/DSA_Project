@@ -88,11 +88,11 @@
 
 # list1 = [1, 2, 3]
 
-# list2 = list1.copy() # shallow copy
-
-# list1[0] = 100
 # list2[1] = 200
 
+# list2 = list1.copy() # shallow copy
+
+# list1[
 # print(list1, id(list1))
 # print(list2, id(list2))
 
