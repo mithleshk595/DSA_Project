@@ -120,17 +120,6 @@
 # print(list(S))
 
 
-# s = "PWSkiLLS"
-
-# print(len(s))
-# print(s[-2])
-# print(s.lower())
-# print(s.upper())
-# print(s.capitalize())
-
-# print(s.replace("P", "M"))
-# print(s[::-1])
-
 # s = "My Name IS Mithlesh"
 
 # print(s.index("Mithlesh"))
