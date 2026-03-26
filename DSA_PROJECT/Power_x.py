@@ -20,3 +20,5 @@ class Solution:
         else:
             n*=-1
             return 1/self.findPow(x,n)
+        
+        
