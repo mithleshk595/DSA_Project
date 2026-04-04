@@ -57,12 +57,36 @@
 #     n*=2
 
 
-i = 1
-n = 100
+# i = 1
+# n = 100
 
-while i <= n:
-    print(i, end= " ")
-    i*=2
+# while i <= n:
+#     print(i, end= " ")
+#     i*=2
 
 
+# n = 5
+# i = 1
 
+# while i<= n:
+#     print(i, end= " ")
+#     i+=1
+
+# def fact(n):
+#     if n == 0:
+#         return 1
+#     return n*fact(n-1)
+
+
+# print(fact(4))
+
+
+def fun(n):
+    if n == 0:
+        return
+    fun(n-1)
+
+    print(n, end=" ")
+
+    fun(3)
+    
