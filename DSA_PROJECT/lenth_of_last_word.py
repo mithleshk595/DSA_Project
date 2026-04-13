@@ -11,11 +11,11 @@
 #         return n - i
 
 
-set1 =  {2, 4, "Hello", 2, 3, "mithlesh", 4, 5, "Hello"}
+# set1 =  {2, 4, "Hello", 2, 3, "mithlesh", 4, 5, "Hello"}
 
-print(set1)
-print(len(set1))
-print(type(set1))
+# print(set1)
+# print(len(set1))
+# print(type(set1))
 
 
 # list1 = [2, 4, 32, 54, 55, 32, 55, 67, 54, 32]
@@ -28,44 +28,72 @@ print(type(set1))
 
 
 
-set1 = {2, 4, "Hello", 2, 3, "mithlesh"}
 
-set1.add("Hello")
-set1.add("world")
+# set1 = {2, 4, "Hello", 2, 3, "mithlesh"}
 
-set1.discard("Hello")
-set1.discard("2")
+# set1.add("Hello")
+# set1.add("world")
 
-
-# print(set1)
+# set1.discard("Hello")
+# set1.discard("2")
 
 
-set1 = {2, 4, 6, 8, 10, 12}
-set2 = {1, 2, 3, 4, 5, 6, 7}
-
-# uninon
-print(set1 | set2)
-print(set1.union(set2))
-
-# intersection 
-print(set1&set2)
-print(set1.intersection(set2))
-
-# diffrence
-print(set1-set2)
-print(set1.difference(set2))
-
-# diffrence
-# print(set2-set1)
-# print(set2.difference(set))
-
-# symmetric diffrence
-print(set1^set2)
-print(set1.symmetric_difference(set2))
+# # print(set1)
 
 
+# set1 = {2, 4, 6, 8, 10, 12}
+# set2 = {1, 2, 3, 4, 5, 6, 7}
+
+# # uninon
+# print(set1 | set2)
+# print(set1.union(set2))
+
+# # intersection 
+# print(set1&set2)
+# print(set1.intersection(set2))
+
+# # diffrence
+# print(set1-set2)
+# print(set1.difference(set2))
+
+# # diffrence
+# # print(set2-set1)
+# # print(set2.difference(set))
+
+# # symmetric diffrence
+# print(set1^set2)
+# print(set1.symmetric_difference(set2))
 
 
+# dict1 = {(1,2,3): "Hello", "key2": "world", 3: "mithlesh"}
+
+# print(dict1[1])
+# print(dict1)
+
+# print(dict1["key2"])
+
+
+
+# dict1 = {1: "Mithlesh", 2: "Kumar", 3: "singh"}
+
+
+# dict1[4] = "gupt"
+# dict1[2] = "sahu"
+# dict1.update({5: "hello", 6: "world"})
+
+# print(dict1)
+
+
+dict1 = {1: "Mithlesh", 2: "Kumar", 3: "singh"}
+
+print(dict1.keys())
+for key,value in dict1.items():
+    print(key, value)
+
+print(dict1.items())
+for key in dict1.keys():
+    print(key, dict1[key])
+    
 
 
 
