@@ -1,10 +1,4 @@
-# class solution:
-#     def sortArray(self, nums):
-#         nums.sort()
-#         return nums
-
-
-# Bubble sort
+ #Bubble sort
 def sortArray(nums):
     n = len(nums)
 
