@@ -4,6 +4,7 @@ class solution:
         if head==None or head.next!=None:
             return head
         
+        # duplicate
         curr = head
         while curr.next!=None:
             if curr.next.val == curr.val:
