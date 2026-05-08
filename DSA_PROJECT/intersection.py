@@ -4,7 +4,9 @@ class solution:
         p2 = headB
         count = 0
 
+
         while True:
+
             if p1 == p2:
                 return p1
             if p1 == None:
@@ -18,3 +20,7 @@ class solution:
                 return None
             
             
+    
+
+
+    
