@@ -19,4 +19,5 @@ class solution:
 
             head = listNode(int(sum[0]))
             curr = head
-            
+
+    
